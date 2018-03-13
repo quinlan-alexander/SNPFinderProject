@@ -1,0 +1,51 @@
+python3 find_snp.py --23andme input.txt --genes=MTHFR
+
+read argument parameters including 23andme input file, gene array
+parse 23ndme file with each gene
+  list any SNPs present in subject's gene
+  if any SNPs present, list articles associated with rsid
+
+  print results to --output file or stdout
+
+  for each article: DL ML ai
+
+
+
+https://rest.ensembl.org/
+https://rest.ensembl.org/documentation/info/variation_id
+
+https://rest.ensembl.org/variation/human/Rs1801133?content-type=application/json
+
+
+
+https://www.snpedia.com/index.php/Rs1801133
+
+
+
+curl 'https://rest.ensembl.org/xrefs/symbol/homo_sapiens/MTHFR?' -H 'Content-type:application/json' | jq .
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100    71  100    71    0     0     68      0  0:00:01  0:00:01 --:--:--    68
+[
+  {
+    "type": "gene",
+    "id": "ENSG00000177000"
+  },
+  {
+    "type": "gene",
+    "id": "LRG_726"
+  }
+]
+
+https://rest.ensembl.org/variation/human/ENSG00000177000?content-type=application/json
+
+
+# To get a gene's SNPs
+https://api.23andme.com/3/marker/?gene_name=MTHFR
+https://api.23andme.com/docs/reference/#marker
+
+23andme
+HowzHealth
+http://localhost:5000/receive_code/
+client_id: 41865d4965b09f4a531e5ce20192e06c
+client_secret: f6ac5879c57ff7334c55b19520ac9408
