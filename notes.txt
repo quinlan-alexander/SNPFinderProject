@@ -49,3 +49,8 @@ HowzHealth
 http://localhost:5000/receive_code/
 client_id: 41865d4965b09f4a531e5ce20192e06c
 client_secret: f6ac5879c57ff7334c55b19520ac9408
+
+
+TODO: replace with
+http://myvariant.info/v1/query?q=rs58991260
+

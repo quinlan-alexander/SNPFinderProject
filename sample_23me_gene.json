@@ -1,0 +1,72 @@
+{
+  "data": [
+    {
+      "id": "rs12023469",
+      "alternate_ids": [],
+      "gene_names": [
+        "LOC100506310",
+        "MTHFR"
+      ],
+      "accession_id": "NC_000001.10",
+      "start": 11845945,
+      "end": 11845946,
+      "variants": [
+        {
+          "accession_id": "NC_000001.10",
+          "start": 11845945,
+          "end": 11845946,
+          "allele": "C",
+          "platform_labels": [
+            "ILMN_CUSTOMv4"
+          ]
+        },
+        {
+          "accession_id": "NC_000001.10",
+          "start": 11845945,
+          "end": 11845946,
+          "allele": "T",
+          "platform_labels": [
+            "ILMN_CUSTOMv4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rs15854",
+      "alternate_ids": [],
+      "gene_names": [
+        "LOC100506310",
+        "MTHFR"
+      ],
+      "accession_id": "NC_000001.10",
+      "start": 11846197,
+      "end": 11846198,
+      "variants": [
+        {
+          "accession_id": "NC_000001.10",
+          "start": 11846197,
+          "end": 11846198,
+          "allele": "A",
+          "platform_labels": [
+            "ILMN_550Qv1_CUSTOMv2",
+            "ILMN_550v3_CUSTOMv1",
+            "ILMN_CUSTOMv4",
+            "ILMN_OMNIEXv3_CUSTOMv3"
+          ]
+        },
+        {
+          "accession_id": "NC_000001.10",
+          "start": 11846197,
+          "end": 11846198,
+          "allele": "G",
+          "platform_labels": [
+            "ILMN_550Qv1_CUSTOMv2",
+            "ILMN_550v3_CUSTOMv1",
+            "ILMN_CUSTOMv4",
+            "ILMN_OMNIEXv3_CUSTOMv3"
+          ]
+        }
+      ]
+    }
+  ]
+}
